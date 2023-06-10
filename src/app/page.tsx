@@ -3,13 +3,14 @@ import { useRouter } from "next/navigation";
 import React, { useState, useRef, useEffect } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { VT323 } from "next/font/google";
+import Image from "next/image";
 
 const vt = VT323({
    subsets: ["latin"],
    weight: ["400"],
 });
 
-export default async function Home() {
+export default function Home() {
    const router = useRouter();
    const [showButton, setShowButton] = useState(true);
    const [showTextRunning, setShowTextRunning] = useState(false);
@@ -54,6 +55,7 @@ export default async function Home() {
 
    return (
       <div className="w-full h-[100vh] flex content-center justify-center items-center">
+         <Image src={"/mainBG.jpg"} alt={"hello"} fill />
          <div
             ref={terminalContainer}
             className="hidden w-full justify-center items-center -mt-64"
