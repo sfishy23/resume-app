@@ -16,7 +16,8 @@ export default function RootLayout({
    return (
       <html lang="en">
          <body
-            className={`${inter.className} bg-[url('/mainBG.jpg')] text-slate-100`}
+            style={{ backgroundImage: `url('/mainBG.jpg')` }}
+            className={`${inter.className} text-slate-100`}
          >
             {children}
          </body>
