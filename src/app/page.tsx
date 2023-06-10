@@ -55,7 +55,11 @@ export default function Home() {
 
    return (
       <div className="w-full h-[100vh] flex content-center justify-center items-center">
-         <Image src={"/mainBG.jpg"} alt={"hello"} fill />
+         <Image
+            src={`${process.env.BACKEND_URL}/mainBG.jpg`}
+            alt={"hello"}
+            fill
+         />
          <div
             ref={terminalContainer}
             className="hidden w-full justify-center items-center -mt-64"
