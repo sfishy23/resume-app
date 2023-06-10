@@ -15,11 +15,10 @@ export default function RootLayout({
 }) {
    return (
       <html lang="en">
-         <body
-            style={{ backgroundImage: `url('/mainBG.jpg')` }}
-            className={`${inter.className} text-slate-100`}
-         >
-            {children}
+         <body>
+            <div className={`${inter.className} text-slate-100 content_bg`}>
+               {children}
+            </div>
          </body>
       </html>
    );

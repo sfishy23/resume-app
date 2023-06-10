@@ -10,6 +10,10 @@
    /* ... */
 }
 
+.content_bg {
+   background-image: url("/mainBG.jpg");
+}
+
 .hover-animation {
    background-size: 200% 0.08em; /* .08em is our fixed height; modify as needed. */
    background-image: linear-gradient(#083344 0 0);

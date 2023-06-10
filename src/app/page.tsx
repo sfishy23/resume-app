@@ -9,7 +9,7 @@ const vt = VT323({
    weight: ["400"],
 });
 
-export default function Home() {
+export default async function Home() {
    const router = useRouter();
    const [showButton, setShowButton] = useState(true);
    const [showTextRunning, setShowTextRunning] = useState(false);
