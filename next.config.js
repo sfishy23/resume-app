@@ -2,10 +2,7 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-   env: {
-      BACKEND_URL: "/resume-app/",
-   },
-   images: { unoptimized: true },
+   // images: { unoptimized: true },
    output: "export",
    // Optional: Add a trailing slash to all paths `/about` -> `/about/`
    // trailingSlash: true,

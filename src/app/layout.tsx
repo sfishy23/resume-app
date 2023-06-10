@@ -15,10 +15,16 @@ export default function RootLayout({
 }) {
    return (
       <html lang="en">
-         <body>
-            <div className={`${inter.className} text-slate-100`}>
-               {children}
-            </div>
+         <body
+            style={{
+               backgroundImage: `url(${process.env.FIXED_URL}/mainBG.jpg)`,
+               backgroundSize: "cover",
+               backgroundRepeat: "no-repeat",
+               backgroundPosition: "center center",
+            }}
+            className={`${inter.className} text-slate-100`}
+         >
+            {children}
          </body>
       </html>
    );
