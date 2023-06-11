@@ -1,3 +1,4 @@
+import LogoRocket from "@/components/LogoRocket";
 import Link from "next/link";
 import React from "react";
 
@@ -12,8 +13,8 @@ export default function MainLayout({
    return (
       <div>
          <div className="w-full flex justify-center items-center bg-slate-900 relative">
-            <div className="absolute left-0 w-[300px] bg-cyan-300">
-               TODO ship goes here
+            <div className="absolute left-0 h-12 pl-12">
+               <LogoRocket />
             </div>
             <div className="flex flex-col max-w-[1000px] grow">
                <nav className="w-full p-12">

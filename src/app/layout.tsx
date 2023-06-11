@@ -18,9 +18,8 @@ export default function RootLayout({
          <body
             style={{
                backgroundImage: `url(${process.env.FIXED_URL}/mainBG.jpg)`,
-               backgroundSize: "cover",
+               backgroundSize: "auto",
                backgroundRepeat: "no-repeat",
-               backgroundPosition: "center center",
             }}
             className={`${inter.className} text-slate-100`}
          >

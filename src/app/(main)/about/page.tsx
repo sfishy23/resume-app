@@ -5,7 +5,7 @@ function About() {
    return (
       <div className="w-full flex justify-center items-center">
          <div className="w-full flex p-12">
-            <div className="flex flex-col w-1/2 justify-center items-center space-y-12">
+            <div className="w-full flex flex-col justify-center items-center space-y-12">
                <div>
                   <h1 className="heading1">INTRODUCTION</h1>
                </div>
@@ -15,7 +15,6 @@ function About() {
                   </p>
                </div>
             </div>
-            <div className="flex w-1/2"></div>
          </div>
       </div>
    );
