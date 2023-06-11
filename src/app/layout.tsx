@@ -24,6 +24,9 @@ export default function RootLayout({
             }}
             className={`${inter.className} text-slate-100`}
          >
+            <div className="text-yellow-500 font-bold">
+               {process.env.FIXED_URL}
+            </div>
             {children}
          </body>
       </html>
