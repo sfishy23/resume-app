@@ -4,11 +4,43 @@
 
 @layer components {
    .heading1 {
-      @apply text-2xl font-bold;
+      @apply text-2xl font-bold uppercase;
    }
-
-   /* ... */
 }
+
+.swiper-container {
+   width: 100%;
+   height: 300px;
+   margin: 20px auto;
+}
+.swiper-slide {
+}
+.swiper-slide-container {
+   text-align: center;
+   font-size: 18px;
+   background: #fff;
+   height: 100%;
+   max-width: 600px;
+   margin: auto;
+   /* Center slide text vertically */
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   -webkit-align-items: center;
+   align-items: center;
+}
+
+/* .swiper-slide {
+   width: fit-content;
+   margin: 0px !important;
+} */
 
 .content_bg {
    background-image: url("/mainBG.jpg");

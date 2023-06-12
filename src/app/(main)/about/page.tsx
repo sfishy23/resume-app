@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../../content/content.json";
+import data from "../../../content/content.json";
 
 function About() {
    return (
@@ -7,12 +7,10 @@ function About() {
          <div className="w-full flex p-12">
             <div className="w-full flex flex-col justify-center items-center space-y-12">
                <div>
-                  <h1 className="heading1">INTRODUCTION</h1>
+                  <h1 className="heading1">Introduction</h1>
                </div>
-               <div className="max-w-[450px] border border-cyan-500 rounded-xl px-6 py-3 bg-slate-200">
-                  <p className="text-justify text-slate-950">
-                     {data.introduction}
-                  </p>
+               <div className="w-[450px] flex flex-col border-2 border-b-0 border-cyan-800 rounded-t-xl px-6 py-2 space-y-4">
+                  <p className="text-justify pb-12">{data.introduction}</p>
                </div>
             </div>
          </div>
