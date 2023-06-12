@@ -17,7 +17,7 @@ export default function RootLayout({
       <html lang="en">
          <body
             style={{
-               backgroundImage: `url(${process.env.FIXED_URL}/mainBG.jpg)`,
+               backgroundImage: `url(${process.env.NEXT_PUBLIC_FIXED_URL}/mainBG.jpg)`,
                backgroundSize: "auto",
                backgroundRepeat: "no-repeat",
             }}
